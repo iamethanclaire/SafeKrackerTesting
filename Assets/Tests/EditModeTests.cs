@@ -1,5 +1,5 @@
 
-/*using NUnit.Framework;
+using NUnit.Framework;
 using UnityEngine;
 public class EditModeTests
 {
@@ -40,4 +40,4 @@ public class EditModeTests
         }
     }
 
-}*/
+}
