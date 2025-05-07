@@ -8,7 +8,9 @@ In case of error: Below is the successful output for the workflow
 
 <img width="551" alt="Screenshot 2025-05-06 235051" src="https://github.com/user-attachments/assets/b0844d84-1058-47ae-9735-5fd0a7d304f3" />
 
-Additionally, storage for the docker tends to be an issue. To see a consistent working WEBGL build, please see it here:
+Additionally, storage for the docker tends to be an issue. This may cause the workflow to fail due to there not being enough space left. WebGL builds take LOTS of space, and are extremely difficult to automate for free. This automation does work if given the space however. 
+
+To see a consistent working WEBGL build, please see it here:
 https://iamethanclaire.github.io/SafeKrackersWeb/
 
 COVERAGE REPORT BELOW:
