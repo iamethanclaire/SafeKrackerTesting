@@ -5,6 +5,7 @@
 Unity has some issues regarding permissions for the serial. Please note this in case of failure of workflow.
 
 In case of error: Below is the successful output for the workflow
+
 <img width="551" alt="Screenshot 2025-05-06 235051" src="https://github.com/user-attachments/assets/b0844d84-1058-47ae-9735-5fd0a7d304f3" />
 
 
