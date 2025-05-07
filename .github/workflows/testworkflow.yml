@@ -1,0 +1,55 @@
+name: Unity Test Runner
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  unity-tests:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install Unity
+      uses: game-ci/unity-installer@v2
+      with:
+        unityVersion: 6000.0.34f1
+
+    - name: Run Edit Mode Tests
+      run: |
+        /opt/unity/Editor/Unity \
+          -projectPath $GITHUB_WORKSPACE \
+          -runTests \
+          -testPlatform editmode \
+          -testFilter EditModeTests \
+          -testResults EditModeResults.xml \
+          -quit \
+          -batchmode \
+          -nographics
+
+    - name: Run Play Mode Tests
+      run: |
+        /opt/unity/Editor/Unity \
+          -projectPath $GITHUB_WORKSPACE \
+          -runTests \
+          -testPlatform playmode \
+          -testFilter PlayModeTests \
+          -testResults PlayModeResults.xml \
+          -quit \
+          -batchmode \
+          -nographics
+
+    - name: Upload Test Results
+      uses: actions/upload-artifact@v3
+      with:
+        name: TestResults
+        path: "*.xml"
+
+
+
