@@ -1,20 +1,37 @@
-name: Unity Tests
+name: Unity Test
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-  test:
+  ci:
     runs-on: ubuntu-latest
+
+    env:
+      UNITY_SERIAL:   ${{ secrets.UNITY_SERIAL }}
+      UNITY_EMAIL:    ${{ secrets.UNITY_EMAIL }}
+      UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-
-      - name: Run Edit & Play Mode Tests
+      - name: Run Unity Tests
         uses: game-ci/unity-test-runner@v4
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          # projectPath: "."
-        env:
-          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
-          
+
+      - name: Build WebGL
+        uses: game-ci/unity-builder@v4
+        with:
+          targetPlatform: WebGL
+          buildPath: build/WebGL
+
+      - name: Deploy Website
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/WebGL
