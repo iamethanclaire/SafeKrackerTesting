@@ -1,4 +1,9 @@
 # SafeKrackerTesting
+
+
+!!!!NOTE!!!!
+Unity has some issues regarding permissions for the serial. Please note this in case of failure of workflow.
+
 COVERAGE REPORT BELOW:
 
 # Summary
