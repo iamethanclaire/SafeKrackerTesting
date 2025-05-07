@@ -33,13 +33,13 @@ jobs:
         uses: game-ci/unity-builder@v4
         with:
           targetPlatform: WebGL
+          allowDirtyBuild: true
           buildPath: build/WebGL
 
       - name: Deploy Website
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          allowDirtyBuild: true
           publish_dir: build/WebGL
 
 
