@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>5/6/2025 - 8:56:06 PM</Generatedon>
+    <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
+    <Assemblies>2</Assemblies>
+    <Classes>35</Classes>
+    <Files>20</Files>
+    <Coveredlines>1174</Coveredlines>
+    <Uncoveredlines>518</Uncoveredlines>
+    <Coverablelines>1692</Coverablelines>
+    <Totallines>2968</Totallines>
+    <Linecoverage>69.3</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+    <Coveredmethods>171</Coveredmethods>
+    <Totalmethods>205</Totalmethods>
+    <Methodcoverage>83.4</Methodcoverage>
+  </Summary>
+  <Coverage>
+    <Assembly name="GameCode" classes="18" coverage="51.4" coveredlines="547" coverablelines="1064" totallines="1793" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="84" totalmethods="117" methodcoverage="71.7">
+      <Class name="AmbientSoundManager" coverage="100" coveredlines="20" coverablelines="20" totallines="36" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+      <Class name="AudioManager" coverage="95.5" coveredlines="65" coverablelines="68" totallines="104" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="8" totalmethods="8" methodcoverage="100" />
+      <Class name="BackgroundMusicManager" coverage="0" coveredlines="0" coverablelines="23" totallines="42" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
+      <Class name="ClipboardButton" coverage="79.5" coveredlines="35" coverablelines="44" totallines="75" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="9" totalmethods="10" methodcoverage="90" />
+      <Class name="ClipboardManager" coverage="0" coveredlines="0" coverablelines="52" totallines="85" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
+      <Class name="CursedQuestions" coverage="100" coveredlines="2" coverablelines="2" totallines="33" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="CutsceneManager" coverage="47.6" coveredlines="31" coverablelines="65" totallines="108" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="7" methodcoverage="57.1" />
+      <Class name="FadeManager" coverage="55.5" coveredlines="20" coverablelines="36" totallines="59" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="5" methodcoverage="60" />
+      <Class name="HeartbeatManager" coverage="58.3" coveredlines="21" coverablelines="36" totallines="56" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="7" methodcoverage="71.4" />
+      <Class name="HeartManager" coverage="59.5" coveredlines="28" coverablelines="47" totallines="87" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="5" methodcoverage="80" />
+      <Class name="LosingScreenManager" coverage="100" coveredlines="3" coverablelines="3" totallines="11" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="NumberScroller" coverage="90.9" coveredlines="60" coverablelines="66" totallines="103" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="10" totalmethods="10" methodcoverage="100" />
+      <Class name="QuestionManager" coverage="37.9" coveredlines="143" coverablelines="377" totallines="592" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="16" totalmethods="26" methodcoverage="61.5" />
+      <Class name="SafeReaction" coverage="54.5" coveredlines="42" coverablelines="77" totallines="138" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="7" totalmethods="8" methodcoverage="87.5" />
+      <Class name="SafeShaker" coverage="73.6" coveredlines="28" coverablelines="38" totallines="63" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="5" methodcoverage="80" />
+      <Class name="SoundControl" coverage="0" coveredlines="0" coverablelines="14" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
+      <Class name="StartMenu" coverage="89.6" coveredlines="26" coverablelines="29" totallines="58" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="6" totalmethods="6" methodcoverage="100" />
+      <Class name="WinScreenManager" coverage="34.3" coveredlines="23" coverablelines="67" totallines="114" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="6" methodcoverage="50" />
+    </Assembly>
+    <Assembly name="Tests" classes="17" coverage="99.8" coveredlines="627" coverablelines="628" totallines="18170" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="87" totalmethods="88" methodcoverage="98.8">
+      <Class name="AmbientSoundManagerTests" coverage="100" coveredlines="23" coverablelines="23" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+      <Class name="AudioManagerTests" coverage="100" coveredlines="51" coverablelines="51" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="9" totalmethods="9" methodcoverage="100" />
+      <Class name="ClipboardButtonTests" coverage="100" coveredlines="57" coverablelines="57" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="7" totalmethods="7" methodcoverage="100" />
+      <Class name="CursedQuestionsTests" coverage="100" coveredlines="9" coverablelines="9" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="CutsceneManagerTests" coverage="100" coveredlines="32" coverablelines="32" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+      <Class name="EditModeTests" coverage="100" coveredlines="22" coverablelines="22" totallines="42" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+      <Class name="FadeManagerTests" coverage="100" coveredlines="25" coverablelines="25" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="HeartbeatManagerTests" coverage="100" coveredlines="17" coverablelines="17" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="HeartManagerTests" coverage="100" coveredlines="31" coverablelines="31" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+      <Class name="LosingScreenManagerTests" coverage="100" coveredlines="14" coverablelines="14" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="NumberScrollerTests" coverage="100" coveredlines="69" coverablelines="69" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="10" totalmethods="10" methodcoverage="100" />
+      <Class name="QuestionManagerIntegrationTests" coverage="97.3" coveredlines="37" coverablelines="38" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="7" totalmethods="8" methodcoverage="87.5" />
+      <Class name="QuestionManagerTests" coverage="100" coveredlines="76" coverablelines="76" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="9" totalmethods="9" methodcoverage="100" />
+      <Class name="SafeReactionTests" coverage="100" coveredlines="53" coverablelines="53" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="7" totalmethods="7" methodcoverage="100" />
+      <Class name="SafeShakerTests" coverage="100" coveredlines="24" coverablelines="24" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+      <Class name="StartMenuTests" coverage="100" coveredlines="51" coverablelines="51" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="6" totalmethods="6" methodcoverage="100" />
+      <Class name="WinScreenManagerTests" coverage="100" coveredlines="36" coverablelines="36" totallines="1133" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>
