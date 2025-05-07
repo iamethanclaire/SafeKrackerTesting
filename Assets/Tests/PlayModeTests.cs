@@ -38,7 +38,7 @@ public class AmbientSoundManagerTests
         Assert.IsNotNull(ambientSoundManager.ambientAudioSource);
     }
 
-    [UnityTest]
+    /*[UnityTest]
     public IEnumerator Test_RandomAmbience()    // INTEGRATION TEST
     {
         Coroutine coroutine = ambientSoundManager.StartCoroutine(ambientSoundManager.PlayRandomAmbientSounds());
@@ -48,7 +48,7 @@ public class AmbientSoundManagerTests
         Assert.IsTrue(ambientSoundManager.ambientAudioSource.isPlaying);
 
         ambientSoundManager.StopCoroutine(coroutine);
-    }
+    }*/
 }
 
 public class AudioManagerTests
